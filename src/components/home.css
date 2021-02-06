@@ -1,0 +1,239 @@
+.pageHeader {
+    width: 98%;
+    height: 52px;
+    margin: 1%;
+    border: 1px solid #a1a29e;
+    box-shadow: 1px 1px 5px #ccc;
+    background: rgb(169, 255, 241);
+    border: 1px solid #61dafb;
+    border-radius: 4px;
+    background-color: #abf5f5;
+    box-shadow: 0px 0px 1px 1px rgb(168, 169, 168), 0px 0px 1px 2px #abf;
+}
+.box1 {
+    width: 400px;
+    height: 300px;
+    margin: 7% 0% 2% 0%;
+    border: 2px solid #b8d3e2;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px #ccc, 0px 0px 12px #d9e2e6 inset;
+    background: rgb(216, 239, 235);
+    display: inline-block;
+}
+.smallModalTitle {
+    font-size: 12px;
+    padding: 8px 0px 0px 0px;
+    font-weight: 600;
+}
+.defaultButton {
+    min-width: 80px;
+    min-height: 30px;
+    /*background: rgb(68, 197, 143);*/
+    background: rgb(137, 218, 184);
+    border: 1px solid rgb(117, 131, 122);
+    box-shadow: 1px 1px 5px rgb(108, 114, 111);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.box2 {
+    min-width: 700px;
+    min-height: 550px;
+    display: inline-block;
+    border-radius: 8px;
+    background: rgb(195, 243, 234);
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #a6ded4;
+    box-shadow: 1px 1px 4px #7dcece, 0px 0px 12px #d9e2e6 inset;
+}
+.headerElement {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(126, 172, 149);
+    margin: 4px 8px;
+    cursor: pointer;
+    background: rgb(223, 241, 232);
+    border-radius: 4px;
+}
+.box2Title {
+    font-size: 24px;
+    padding: 12px;
+    color: darkcyan;
+}
+.logoutButton {
+    width: 60px;
+    height: 30px;
+    background: red;
+    border: 1px solid darkgrey;
+    box-shadow: rgb(204, 204, 204) 1px 1px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.liteButton {
+    min-width: 80px;
+    min-height: 30px;
+    background: rgb(200, 241, 224);
+    border: 1px solid rgb(137, 218, 184);
+    box-shadow: 1px 1px 3px rgb(108, 113, 111);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.liteButton:focus {
+    outline: none;
+    box-shadow: 1px 1px 2px rgb(108, 113, 111), 1px 1px 4px rgb(158, 185, 172) inset;
+}
+.liteButton2 {
+    min-width: 80px;
+    min-height: 30px;
+    background: rgb(200, 241, 224);
+    background: rgb(217, 239, 230);
+    border: 1px solid rgb(184, 210, 199);
+    box-shadow: 0px 0px 5px rgb(210, 220, 216);
+    border-radius: 4px;
+    cursor: pointer;
+    color: #4b7175;
+}
+.liteButton2:focus {
+    outline: none;
+    box-shadow: 1px 1px 2px rgb(108, 113, 111), 1px 1px 4px rgb(158, 185, 172) inset;
+}
+.defaultButton1 {
+    min-width: 80px;
+    min-height: 30px;
+    background: rgb(155, 224, 195);
+    background: rgb(181, 234, 212);
+    border: 1px solid rgb(117, 131, 122);
+    box-shadow: 1px 1px 5px rgb(108, 114, 111);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.liteButton2:focus {
+    outline: none;
+    box-shadow: 1px 1px 2px rgb(108, 113, 111), 1px 1px 4px rgb(158, 185, 172) inset;
+}
+.liteSmallButton {
+    min-width: 60px;
+    min-height: 20px;
+    background: rgb(200, 241, 224);
+    border: 1px solid rgb(137, 218, 184);
+    box-shadow: 1px 1px 3px rgb(108, 113, 111);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.liteSmallButton:focus {
+    outline: none;
+    box-shadow: 1px 1px 2px rgb(108, 113, 111), 1px 1px 4px rgb(158, 185, 172) inset;
+}
+body {
+    background-color: aliceblue;
+}
+.pageHeader2 {
+    width: 98%;
+    height: 58px;
+    margin: 0 1%;
+    border: 1px solid #e6e019;
+    border-radius: 8px;
+    background-color: #13d2d2;
+    box-shadow: 0 0 6px #a8a9a8;
+    padding-left: 60px;
+}
+.heading2 {
+    margin: 0px;
+    color: #0b3696;
+    font-family: cursive;
+}
+.pageBody2 {
+    width: 98%;
+    min-height: 800px;
+    margin: 1%;
+    border: 2px solid #61dafb;
+    background-color: #086565;
+    box-shadow: 0px 0px 6px rgb(168, 169, 168);
+    border-radius: 8px;
+}
+.previewDiv2 {
+    width: 32%;
+    height: 880px;
+    margin: 1%;
+    border: 1px solid green;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+.listView2 {
+    width: 98%;
+    margin: 1%;
+    min-height: 880px;
+    border: 1px solid green;
+    border-radius: 4px;
+    display: inline-block;
+}
+.imageDiv2 {
+    width: 80%;
+    margin: 10%;
+    height: auto;
+}
+.headerElement2 {
+    display: inline-block;
+    padding: 12px;
+    border: 1px solid rgb(126, 172, 149);
+    margin: 0px;
+    cursor: pointer;
+    background: rgb(223, 241, 232);
+    border-radius: 4px;
+    color: black;
+}
+.headerElement2:hover {
+    background: rgb(159, 163, 161);
+}
+.videoContainer {
+    min-width: 70px;
+    min-height: 60px;
+    max-width: 200px;
+    display: inline-block;
+    background-image: url("../images/speaker.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    border: 1px solid #77e9f5;
+    padding: 4px;
+    margin: 2px;
+    /*background-color: #969baf;*/
+    background-color: #dde4f7;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px #ccc;
+}
+.videoContainerName {
+    margin-bottom: 0px;
+    max-width: 70px;
+    max-height: 20px;
+    overflow: hidden;
+}
+.raiseHandDiv {
+    width: 60px;
+    height: 55px;
+    display: none;
+    z-index: 10;
+    background-color: #9ff1b8;
+    border-radius: 4px;
+    position: absolute;
+}
+.headerElement3 {
+    display: inline-block;
+    padding: 13px;
+    /* border: 2px solid rgb(52, 53, 53); */
+    margin: 0px;
+    cursor: pointer;
+    background: #abf5f5;
+    border-radius: 8px;
+    color: saddlebrown;
+    font-size: 18px;
+    box-shadow: 0px 0px 5px;
+}
+.headerElement3:hover {
+    background: rgb(195, 231, 213);
+}

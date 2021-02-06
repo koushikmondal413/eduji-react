@@ -1,0 +1,43 @@
+.chatbox {
+    width: 268px;
+    height: 358px;
+    height: 22px;
+    border: 1px solid #9ca5a5;
+    border-radius: 8px;
+    margin-right: 20px;
+    background-color: rgb(190, 230, 144);
+    box-shadow: 1px 1px 8px #337d7a;
+    bottom: 8px;
+    overflow: hidden;
+}
+.messagebox {
+    width: 257px;
+    margin: 5px;
+    height: 230px;
+    border: 1px solid rgb(156, 184, 175);
+    background-color: white;
+    border-radius: 4px;
+    overflow-y: auto;
+}
+.messagebox::-webkit-scrollbar {
+    width: 1px;
+}
+.typingbox {
+    width: 257px;
+    margin: 4px;
+    height: 96px;
+    border: 1px solid rgb(156, 184, 175);
+    border-radius: 4px;
+    background-color: thistle;
+}
+.message {
+    min-height: 14px;
+    width: 60px;
+}
+.raiseHand {
+    position: fixed;
+    left: 0;
+    top: 356px;
+    width: 60px;
+    height: 60px;
+}

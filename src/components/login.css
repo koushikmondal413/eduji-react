@@ -1,0 +1,101 @@
+body {
+    /*background: #dcf1ee;*/
+    background: rgba(0, 128, 0, 0.3);
+}
+.loginPage {
+    /*width: 100%;*/
+    min-width: 1366px;
+    height: auto;
+    background: rgba(0, 128, 0, 0.3);
+    background-image: url("../images/background2.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.imageDiv {
+    display: inline-block;
+    vertical-align: top;
+    margin: 2% 1% 2% 2%;
+    width: 47%;
+    height: 88%;
+    /*border: 1px solid rgb(245, 241, 244);*/
+}
+.loginDiv1 {
+    display: inline-block;
+    margin: 9.5% 2%;
+    margin-left: 11%;
+    width: 602px;
+    height: 80%;
+    border: 1px solid rgb(248, 244, 247);
+    /*background: #dcf1f3;
+background-color: #9ecbd091;*/
+    background-color: #b6eef591;
+    box-shadow: 1px 1px 8px #9e9a9a, 1px 1px 1px #afd4da inset;
+    border-radius: 10px;
+}
+.loginDiv {
+    display: inline-block;
+    margin: 9.5% 2%;
+    margin-left: 11%;
+    width: 542px;
+    height: 80%;
+    /* border: 1px solid rgb(190, 202, 212); */
+    background-color: #abf5f5;
+    box-shadow: 1px 1px 8px #9e9a9a;
+    border-radius: 25px;
+}
+.defaultInput {
+    width: 210px;
+    height: 36px;
+    box-shadow: 1px 1px 5px #ccc;
+    border-radius: 5px;
+    border: 1px solid #b2c0c9;
+    box-shadow: 1px 1px 5px #ccc;
+    padding: 4px;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.defaultInput:focus {
+    outline: none;
+    border-color: rgb(99, 161, 93);
+}
+.defaultLabel {
+    font-size: 18px;
+    font-weight: 500;
+    color: chocolate;
+}
+.defaultLabel1 {
+    font-size: 21px;
+    font-weight: 600;
+    color: #031c1d;
+}
+.loginTable {
+    margin: 11%;
+    width: 60%;
+    text-align: left;
+    margin-left: 14%;
+}
+.loginTable td {
+    padding: 20px;
+}
+.loginButton {
+    width: 60px;
+    height: 30px;
+    background: #abf5f5;
+    background-color: #83cccd;
+    /*border: 1px solid darkgrey;*/
+    border: none;
+    box-shadow: 1px 1px 5px #ccc;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.signupTable {
+    margin: 9% 15% 5% 14%;
+    width: 80%;
+    text-align: left;
+}
+.signupTable td {
+    padding: 10px 6px;
+}

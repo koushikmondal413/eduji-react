@@ -1,0 +1,51 @@
+body {
+  background: none;
+}
+.pageHeader1 {
+  width: 98%;
+  height: 45px;
+  margin: 0% 1%;
+  border: 1px solid #61dafb;
+  border-radius: 4px;
+  background-color: #abf5f5;
+  box-shadow: 0px 0px 1px 1px rgb(168, 169, 168), 0px 0px 1px 2px #abf5f5 inset;
+}
+.heading1 {
+  margin: 0px;
+  color: #0b3696;
+  font-family: cursive;
+}
+.pageBody1 {
+  width: 98%;
+  min-height: 800px;
+  margin: 1%;
+  border: 1px solid #61dafb;
+  border-radius: 4px;
+  background-color: #086565;
+  box-shadow: 0px 0px 1px 1px rgb(168, 169, 168), 0px 0px 1px 2px #abf5f5 inset;
+}
+.previewDiv {
+  width: 32%;
+  height: 880px;
+  margin: 1%;
+  border: 1px solid green;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: top;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.listView {
+  width: 62%;
+  margin: 1%;
+  min-height: 880px;
+  border: 1px solid green;
+  border-radius: 4px;
+  display: inline-block;
+}
+.imageDiv {
+  width: 80%;
+  margin: 10%;
+  height: auto;
+}

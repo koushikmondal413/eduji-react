@@ -1,0 +1,16 @@
+.noteDiv {
+  width: 60%;
+  border: 1px solid springgreen;
+  border-radius: 4px;
+  margin: 5px 10%;
+  color: aliceblue;
+}
+.pagesDiv {
+  height: auto;
+}
+.pageDiv {
+  height: auto;
+  border: 1px solid aqua;
+  width: 92%;
+  margin: 2% 4%;
+}
